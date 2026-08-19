@@ -1,11 +1,19 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { authClient } from "../app/lib/auth-client";
+
+
 
 const Navbar = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [userName, setUserName] = useState("John Doe");
+  const router = useRouter();
+  const { data: session, isPending } = authClient.useSession();
+
+  const handleLogout = async () => {
+    await authClient.signOut();
+    router.push("/signin");
+  };
 
   return (
     <div className="border-b px-4 bg-white w-full sticky top-0 z-50">
@@ -26,33 +34,23 @@ const Navbar = () => {
         </Link>
 
         <ul className="flex items-center gap-5 text-sm font-medium text-black">
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/all-books">All Books</Link>
-          </li>
-          <li>
-            <Link href="/profile">My Profile</Link>
-          </li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/all-books">All Books</Link></li>
+          <li><Link href="/profile">My Profile</Link></li>
         </ul>
 
         <div className="flex items-center gap-4 text-sm font-medium">
-          {isLoggedIn ? (
+          {isPending ? (
+            <span className="loading loading-spinner loading-xs text-orange-600"></span>
+          ) : session?.user ? (
             <div className="flex items-center gap-3">
-              <span className="text-black">Hello, {userName}</span>
-              <button 
-                onClick={() => setIsLoggedIn(false)}
-                className="bg-red-500 hover:bg-red-600 text-white px-3 py-1.5 rounded-md font-semibold text-xs transition"
-              >
+              <span className="text-black font-semibold">Hello, {session.user.name}</span>
+              <button onClick={handleLogout} className="bg-red-500 hover:bg-red-600 text-white px-3 py-1.5 rounded-md font-semibold text-xs transition">
                 Logout
               </button>
             </div>
           ) : (
-            <Link 
-              href="/signin" 
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-semibold text-xs transition"
-            >
+            <Link href="/signin" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-semibold text-xs transition">
               Login
             </Link>
           )}

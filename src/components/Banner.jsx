@@ -3,10 +3,10 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <div className="relative bg-gradient-to-r from-orange-50 to-amber-100 py-20 px-6 sm:px-12 lg:px-20 text-center lg:text-left min-h-[450px] flex items-center">
+    <div className="relative bg-gradient-to-r from-orange-50 to-amber-100 py-20 px-6 sm:px-12 lg:px-20 text-center lg:text-left min-h-[450px] flex items-center overflow-hidden">
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         
-        <div className="space-y-6">
+        <div className="space-y-6 animate__animated animate__fadeInLeft">
           <span className="bg-orange-200 text-orange-800 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">
             Welcome to MangoBook
           </span>
@@ -29,7 +29,7 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className="hidden lg:flex justify-center items-center">
+        <div className="hidden lg:flex justify-center items-center animate__animated animate__fadeInRight">
           <div className="w-80 h-80 bg-orange-200 rounded-full bg-cover bg-center border-4 border-white shadow-xl relative overflow-hidden flex flex-col justify-center items-center p-6 text-center">
             <div className="text-6xl mb-2">📚</div>
             <h4 className="font-bold text-lg text-orange-900">Digital Library</h4>
