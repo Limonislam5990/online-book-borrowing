@@ -6,7 +6,7 @@
     "description": "An enchanting story about a young girl who discovers a hidden magical forest near her village.",
     "category": "Story",
     "available_quantity": 5,
-    "image_url": "https://unsplash.com"
+    "image_url": "https://i.ibb.co.com/ppT73yr/3d-illustration-virtual-reality-interface-project-real-estate-construction-industry-concept-239711-4.avif"
   },
   {
     "id": "2",
@@ -15,7 +15,7 @@
     "description": "A comprehensive guide to building modern, fast, and scalable full-stack web applications.",
     "category": "Tech",
     "available_quantity": 3,
-    "image_url": "https://unsplash.com"
+    "image_url": "https://i.ibb.co.com/KzjZyMRh/48-3d-rendering-websites-frontend-elements-immersive-web-design-advanced-user-interface-development.avif"
   },
   {
     "id": "3",
@@ -24,7 +24,7 @@
     "description": "Breaking down the complex concepts of physics and quantum mechanics into beginner-friendly chapters.",
     "category": "Science",
     "available_quantity": 7,
-    "image_url": "https://unsplash.com"
+    "image_url": "https://i.ibb.co.com/xtnMkbCq/7740957.jpg"
   },
   {
     "id": "4",
@@ -33,7 +33,7 @@
     "description": "A thrilling detective story set in the old streets of Dhaka, filled with mystery and suspense.",
     "category": "Story",
     "available_quantity": 4,
-    "image_url": "https://unsplash.com"
+    "image_url": "https://i.ibb.co.com/NgLzk4bK/abstract-data-network-seamless-information-flow-visualization-1305396-11800.jpg"
   },
   {
     "id": "5",
@@ -42,7 +42,7 @@
     "description": "Learn the core fundamentals of machine learning, deep learning, and practical neural networks.",
     "category": "Tech",
     "available_quantity": 2,
-    "image_url": "https://unsplash.com"
+    "image_url": "https://i.ibb.co.com/sp3GcY1K/abstract-new-app-development-elements-illustrated-23-2148683146.jpg"
   },
   {
     "id": "6",
@@ -51,7 +51,7 @@
     "description": "An incredible journey across galaxies, black holes, and the endless mysteries of our universe.",
     "category": "Science",
     "available_quantity": 6,
-    "image_url": "https://unsplash.com"
+    "image_url": "https://i.ibb.co.com/qL1n9rfQ/african-american-skilled-analyst-reviewing-monthly-revenue-balance-482257-122687.jpg"
   },
   {
     "id": "7",
@@ -60,7 +60,7 @@
     "description": "A heart-touching family drama that captures the essence of rural life during the rainy seasons.",
     "category": "Story",
     "available_quantity": 8,
-    "image_url": "https://unsplash.com"
+    "image_url": "https://i.ibb.co.com/bRCF7k4X/african-american-software-developer-does-visual-coding-creating-software-482257-127024.avif"
   },
   {
     "id": "8",
@@ -69,7 +69,7 @@
     "description": "Protect your digital assets by learning how modern networks are secured and how threats are stopped.",
     "category": "Tech",
     "available_quantity": 4,
-    "image_url": "https://unsplash.com"
+    "image_url": "https://i.ibb.co.com/gZ9Fy228/businessman-using-computer-show-organigram-1034820-63144.avif"
   },
   {
     "id": "9",
@@ -78,7 +78,7 @@
     "description": "Exploring how CRISPR and genetic engineering are altering medicine, biology, and the future of humans.",
     "category": "Science",
     "available_quantity": 5,
-    "image_url": "https://unsplash.com"
+    "image_url": "https://i.ibb.co.com/HTjN1Z4z/close-up-notebook-with-creative-digital-architectural-project-round-wireframe-sketch-with-polygonal.jpg"
   },
   {
     "id": "10",
@@ -87,7 +87,7 @@
     "description": "An epic historical fiction saga detailing the rise and fall of an ancient dynasty in South Asia.",
     "category": "Story",
     "available_quantity": 3,
-    "image_url": "https://unsplash.com"
+    "image_url": "https://i.ibb.co.com/Nn1h5j9J/computer-with-digital-marketing-modern-office-d-rendering-762785-84767.jpg"
   },
   {
     "id": "11",
@@ -96,7 +96,7 @@
     "description": "Dive deep into server components, server actions, and optimal state management in modern frameworks.",
     "category": "Tech",
     "available_quantity": 6,
-    "image_url": "https://unsplash.com"
+    "image_url": "https://i.ibb.co.com/H99PgWw/creative-web-homepage-illustration-52683-79847-1.jpg"
   },
   {
     "id": "12",
@@ -105,6 +105,6 @@
     "description": "A scientific analysis of global weather patterns, ecosystems, and actionable solutions for the planet.",
     "category": "Science",
     "available_quantity": 4,
-    "image_url": "https://unsplash.com"
+    "image_url": "https://i.ibb.co.com/60NYbzkv/it-specialist-writing-html-script-binary-code-database-security-482257-92458.jpg"
   }
 ]
