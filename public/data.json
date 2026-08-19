@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "title": "The Whispering Woods",
+    "author": "Amina Rahman",
+    "description": "An enchanting story about a young girl who discovers a hidden magical forest near her village.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://unsplash.com"
+  },
+  {
+    "id": "2",
+    "title": "Next-Gen Web Architecture",
+    "author": "Robert Fletcher",
+    "description": "A comprehensive guide to building modern, fast, and scalable full-stack web applications.",
+    "category": "Tech",
+    "available_quantity": 3,
+    "image_url": "https://unsplash.com"
+  },
+  {
+    "id": "3",
+    "title": "Quantum Mechanics Unveiled",
+    "author": "Dr. Sajid Hasan",
+    "description": "Breaking down the complex concepts of physics and quantum mechanics into beginner-friendly chapters.",
+    "category": "Science",
+    "available_quantity": 7,
+    "image_url": "https://unsplash.com"
+  },
+  {
+    "id": "4",
+    "title": "Shadows of the Past",
+    "author": "Zayan Ahmed",
+    "description": "A thrilling detective story set in the old streets of Dhaka, filled with mystery and suspense.",
+    "category": "Story",
+    "available_quantity": 4,
+    "image_url": "https://unsplash.com"
+  },
+  {
+    "id": "5",
+    "title": "Mastering Artificial Intelligence",
+    "author": "Elena Rostova",
+    "description": "Learn the core fundamentals of machine learning, deep learning, and practical neural networks.",
+    "category": "Tech",
+    "available_quantity": 2,
+    "image_url": "https://unsplash.com"
+  },
+  {
+    "id": "6",
+    "title": "The Cosmic Horizon",
+    "author": "Prof. Alan Stern",
+    "description": "An incredible journey across galaxies, black holes, and the endless mysteries of our universe.",
+    "category": "Science",
+    "available_quantity": 6,
+    "image_url": "https://unsplash.com"
+  },
+  {
+    "id": "7",
+    "title": "Echoes of the Monsoon",
+    "author": "Nusrat Jahan",
+    "description": "A heart-touching family drama that captures the essence of rural life during the rainy seasons.",
+    "category": "Story",
+    "available_quantity": 8,
+    "image_url": "https://unsplash.com"
+  },
+  {
+    "id": "8",
+    "title": "Understanding Cybersecurity",
+    "author": "Kevin Mitnick Jr.",
+    "description": "Protect your digital assets by learning how modern networks are secured and how threats are stopped.",
+    "category": "Tech",
+    "available_quantity": 4,
+    "image_url": "https://unsplash.com"
+  },
+  {
+    "id": "9",
+    "title": "Genetic Revolution",
+    "author": "Dr. Sarah Jenkins",
+    "description": "Exploring how CRISPR and genetic engineering are altering medicine, biology, and the future of humans.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://unsplash.com"
+  },
+  {
+    "id": "10",
+    "title": "The Forgotten Kingdom",
+    "author": "Rashed Chowdhury",
+    "description": "An epic historical fiction saga detailing the rise and fall of an ancient dynasty in South Asia.",
+    "category": "Story",
+    "available_quantity": 3,
+    "image_url": "https://unsplash.com"
+  },
+  {
+    "id": "11",
+    "title": "React and Next.js Mastery",
+    "author": "Dave Ceddia",
+    "description": "Dive deep into server components, server actions, and optimal state management in modern frameworks.",
+    "category": "Tech",
+    "available_quantity": 6,
+    "image_url": "https://unsplash.com"
+  },
+  {
+    "id": "12",
+    "title": "Climate Dynamics",
+    "author": "Dr. Michael Mann",
+    "description": "A scientific analysis of global weather patterns, ecosystems, and actionable solutions for the planet.",
+    "category": "Science",
+    "available_quantity": 4,
+    "image_url": "https://unsplash.com"
+  }
+]

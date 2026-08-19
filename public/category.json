@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Story",
+    "slug": "story"
+  },
+  {
+    "id": 2,
+    "name": "Tech",
+    "slug": "tech"
+  },
+  {
+    "id": 3,
+    "name": "Science",
+    "slug": "science"
+  },
+  {
+    "id": 4,
+    "name": "Story",
+    "slug": "story"
+  },
+  {
+    "id": 5,
+    "name": "Tech",
+    "slug": "tech"
+  },
+  {
+    "id": 6,
+    "name": "Science",
+    "slug": "science"
+  },
+  {
+    "id": 7,
+    "name": "Story",
+    "slug": "story"
+  },
+  {
+    "id": 8,
+    "name": "Tech",
+    "slug": "tech"
+  },
+  {
+    "id": 9,
+    "name": "Science",
+    "slug": "science"
+  },
+  {
+    "id": 10,
+    "name": "Story",
+    "slug": "story"
+  },
+  {
+    "id": 11,
+    "name": "Tech",
+    "slug": "tech"
+  },
+  {
+    "id": 12,
+    "name": "Science",
+    "slug": "science"
+  }
+]
