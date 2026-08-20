@@ -12,8 +12,8 @@ export const auth = betterAuth({
     },
     socialProviders: {
         google: {
-            clientId: "://googleusercontent.com",
-            clientSecret: "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",
+            clientId: process.env.GOOGLE_CLIENT_ID,
+            clientSecret: process.env.GOOGLE_CLIENT_SECRET,
         }
     }
 });

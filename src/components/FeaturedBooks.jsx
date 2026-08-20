@@ -1,7 +1,7 @@
 import PhotoCard from "./photocard";
 
 const FeaturedBooks = async () => {
-  const res = await fetch('http://localhost:3000/data.json', {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/data.json`, {
     cache: 'no-store'
   });
   const data = await res.json();
