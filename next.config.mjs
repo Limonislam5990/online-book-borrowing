@@ -1,9 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactCompiler: true, 
-  output: 'export',    
+  reactCompiler: true,
   images: {
-    unoptimized: true, 
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "i.ibb.co.com",
+      },
+    ],
   },
 };
 
